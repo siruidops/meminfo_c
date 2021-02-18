@@ -2,3 +2,28 @@
 
 ![License](https://img.shields.io/badge/license-GPL-blue) ![Status](https://img.shields.io/badge/state-success-cyan) ![Language](https://img.shields.io/badge/language-C-purple)
 </div>
+
+
+tested on Arch linux + GCC 10.2.0 + GNU Make 4.3
+
+Dependencies:
+```
+make
+gcc
+```
+
+Build and install:
+``` bash
+$ make
+$ sudo make install
+```
+
+Clean:
+```
+$ make clean
+```
+
+Uninstall:
+```
+$ sudo make uninstall
+```
