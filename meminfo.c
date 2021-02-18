@@ -107,7 +107,7 @@ int main() {
     int used = ((atoi(total) - atoi(free)) - (atoi(buffers) + atoi(cache))) * 0.001;
     int avai = atoi(total)*0.001;
 
-    printf("%d mb/%d mb\n", used, avai);
+    printf("%d MB/%d MB\n", used, avai);
 
     return 0;
 
