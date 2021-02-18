@@ -46,10 +46,10 @@ void remove_kB(char *text) {
     length_string = strlen(text);
     length_word = strlen(word);
 
-    for(i=0; i<length_string; i++) {
+    for (i=0; i<length_string; i++) {
         temp = i;
         
-        for(j = 0; j < length_word; j++) {
+        for (j = 0; j < length_word; j++) {
             if (text[i] == word[j])
                 i++;
         }
