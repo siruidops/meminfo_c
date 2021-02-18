@@ -32,7 +32,7 @@ install: meminfo
 	chmod 755 $(PREFIX)/bin/meminfo
 
 uninstall:
-	rm -f $(DESTDIR)$(PREFIX)/bin/meminfo
+	rm -f $(PREFIX)/bin/meminfo
 
 clean:
 	rm meminfo
