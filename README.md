@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/license-GPL-blue) ![Status](https://img.shields.io/badge/state-success-cyan) ![Language](https://img.shields.io/badge/language-C-purple)
 </div>
 
-
+# Parse meminfo with C 
 tested on Arch linux + GCC 10.2.0 + GNU Make 4.3
 
 Dependencies:
